@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
+import { addToCart } from '../CartActions/cartActions';
 
 class Home extends Component {
 
